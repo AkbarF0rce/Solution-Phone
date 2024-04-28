@@ -222,26 +222,27 @@
     <!-- Contact section start -->
     <section id="contact" class="contact">
         <h2><span>Kontak </span>Kami</h2>  
-        <p>Isilah dengan lengkap dan jelas agar barang sampai dengan selamat!</p>
+        <p>Kirim masukan kepada kami!</p>
 
         <div class="row">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.219923369698!2d106.97102507485481!3d-6.23471509375349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c42ee1cef69%3A0xed4430e97e450dc3!2sPasar%20Kranji%20Baru!5e0!3m2!1sid!2sid!4v1688611620532!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
 
-            <form action="">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="c543e291-bf20-4317-84c3-5a9a6f0be211">
                 <div class="input-group">
                     <i data-feather="user"></i>
-                    <input type="text" placeholder="nama">
+                    <input type="text" placeholder="nama" name="nama">
                 </div>
                 <div class="input-group">
                     <i data-feather="mail"></i>
-                    <input type="text" placeholder="email">
+                    <input type="email" placeholder="email" name="gmail">
                 </div>
                 <div class="input-group">
                     <i data-feather="phone"></i>
-                    <input type="text" placeholder="no hp">
+                    <input type="text" placeholder="isi masukan" name="masukan">
                 </div>
-                <button type="submit" class="btn">kirim pesan</button>
-            </form>
+                <button type="submit" class="btn">kirim masukan</button>
+            </action=>
         </div>
     </section>
     <!-- Contact section end -->
